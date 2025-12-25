@@ -1,0 +1,37 @@
+# 基础依赖
+torch>=2.3.1
+transformers>=4.45.2
+accelerate>=1.0.1
+sentencepiece>=0.2.0
+tiktoken>=0.7.0
+huggingface_hub>=0.23.2,<1.0  # 与 transformers 4.45.2 兼容
+
+# 多模态支持
+Pillow>=10.0.0
+opencv-python>=4.8.0
+torchvision>=0.18.0
+
+# 语音识别和合成
+openai-whisper>=20231117
+edge-tts>=6.1.0  # 支持 Python 3.12，使用微软 Edge TTS API
+soundfile>=0.12.1
+librosa>=0.10.0
+# pyaudio>=0.2.14  # 麦克风录音（可选，服务器环境通常不需要，Gradio自带录音功能）
+
+# 图像处理
+requests>=2.32.0
+Pillow>=10.0.0
+
+# GUI 界面（二选一）
+gradio>=4.0.0,<5.0.0  # Web界面框架（使用4.x稳定版本）
+streamlit>=1.28.0  # 替代GUI框架（更简单稳定）
+
+# 其他工具
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+
+# PQGuard: Post-Quantum Cryptography
+pyoqs>=1.6.0  # Open Quantum Safe Python bindings
+cryptography>=41.0.0  # For AES-GCM, HKDF, etc.
+
