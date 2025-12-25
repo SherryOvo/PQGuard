@@ -225,10 +225,10 @@ PQGuard 在量子增强的 Dolev-Yao 威胁模型下工作，假设：
 
 ## 平台支持
 
-- ✅ Intel Xeon 服务器
-- ✅ NVIDIA Jetson AGX Orin
-- ✅ Apple M 系列（ARM64）
-- ✅ 支持 CUDA 的 GPU 加速推理
+-  Intel Xeon 服务器
+-  NVIDIA Jetson AGX Orin
+-  Apple M 系列（ARM64）
+-  支持 CUDA 的 GPU 加速推理
 
 ## 测试模型
 
