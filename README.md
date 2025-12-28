@@ -247,11 +247,11 @@ PQGuard 在量子增强的 Dolev-Yao 威胁模型下工作，假设：
 如果使用 PQGuard，请引用：
 
 ```bibtex
-@article{pqguard2024,
+@article{pqguard2026,
   title={PQGuard: Post-Quantum Secure LLM Inference Framework},
   author={...},
   journal={...},
-  year={2024}
+  year={2026}
 }
 ```
 
